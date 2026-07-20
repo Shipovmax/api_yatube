@@ -30,8 +30,8 @@ Supports posts, comments, and groups with Token-based authentication.
 ## Quick Start
 
 ```bash
-git clone https://github.com/Shipovmax/api_yatube
-cd api_yatube
+git clone https://github.com/Shipovmax/yatube-api_test
+cd yatube-api_test
 
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -79,7 +79,7 @@ Authorization: Token <your_token>
 ## Running Tests
 
 ```bash
-cd api_yatube  # project root
+cd yatube-api_test  # project root
 pytest
 ```
 
